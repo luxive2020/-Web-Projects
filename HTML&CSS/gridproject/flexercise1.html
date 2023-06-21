@@ -1,0 +1,67 @@
+<html>
+    <header>
+        <style>
+                
+                body{
+                    margin: 0px;
+                }
+                .header{
+                    display: flex;
+                    background-color:rgb(206, 94, 206);
+                    height: 80px;
+                    align-items: center;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    
+                }
+                .left-section{
+                    width: 10px;
+                    margin-left: 20px;
+                    color: white;
+                    font-size: 18px;
+                }
+                .mid-section{
+                    flex: 1;
+                    margin-left: 74px;
+                    max-width: 400px;
+                }
+                .right-section{
+                    width: 200px;
+                    margin-left: 200px;
+                    margin-right: 20px;
+                }
+                .button-download{
+                    width: 150px;
+                    font-size: 15px;
+                    height: 38px;
+                    color: white;
+                    background-color: rgb(206, 94, 206);
+                    border-color: white;
+                    border-radius: 5px;
+                    border-width: 1px;
+                    
+                }
+                .search-field{
+                    width:100%;
+                    margin-right:50px;
+                    margin-left: 80px;
+                    height: 38px;
+                    padding-left: 15px;
+                    border-radius: 140px;
+                    color: rgb(96, 96, 96);
+                    border-color: rgb(206, 94, 206);
+                }
+        </style>
+    </header>
+    <body>
+        <div class="header">
+            <div class="left-section">Home</div>
+            <div class="mid-section">
+                <input  class="search-field" type="text" name="download" id="" placeholder="Search">
+            </div>
+            <div class="right-section">
+                <button class="button-download">Download</button>
+            </div>
+        </div>
+    </body>
+</html>

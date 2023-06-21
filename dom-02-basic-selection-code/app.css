@@ -1,0 +1,35 @@
+#main-title {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    background-color: blue;
+}
+.my-ul{
+    margin-top: 40px;
+}
+
+.list-item{
+    color: blue;
+   margin-left: 600px;
+    font-size: 24px;
+    margin-top: 10ppx;
+
+}
+input{
+    margin-left: 600px;
+    font-size: 16px;
+    color: blue;
+    border: 1px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    border-radius: 25px;
+}
+input:hover{
+    background-color: blue;
+    color: white;
+    border: none;
+    
+}
